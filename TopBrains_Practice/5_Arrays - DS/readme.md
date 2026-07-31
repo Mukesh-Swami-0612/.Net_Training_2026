@@ -1,127 +1,193 @@
-Arrays - DS (HackerRank)
+# 🔄 Arrays - DS (HackerRank)
 
-Problem Statement
+A C# implementation of the **Arrays - DS** problem from HackerRank. This project demonstrates how to reverse an array efficiently using the **Two Pointer** technique without using any built-in reverse function.
 
+> **Data Structure:** Array  
+> **Technique Used:** Two Pointer (In-Place Reversal)
 
+---
+
+## 🎯 Problem Statement
 
 An array is a data structure that stores elements of the same type in contiguous memory.
 
-
-
-Given an array of integers, your task is to reverse the elements of the array and return the reversed array.
-
-
-
-Complete the function reverseArray that takes an integer array as input and returns the array in reverse order.
-
-
-
-Function Description
-
-
+Given an array of integers, reverse the elements of the array and return the reversed array.
 
 Complete the following function:
 
-
-
+```csharp
 reverseArray(List<int> a)
+```
 
-Parameter
+---
 
-a : A list of integers.
+## 📥 Input Format
 
-Return
+- The first line contains an integer **n**, representing the number of elements.
+- The second line contains **n** space-separated integers.
 
-A list of integers containing the elements of the original array in reverse order.
+### Constraints
 
-Input Format
+- **1 ≤ n ≤ 1000**
+- **1 ≤ a[i] ≤ 10000**
 
-The first line contains an integer n, representing the number of elements in the array.
+---
 
-The second line contains n space-separated integers.
+## 📤 Output Format
 
-Constraints
+Return a list containing the elements of the original array in reverse order.
 
-1 ≤ n ≤ 1000
+---
 
-1 ≤ a[i] ≤ 10000
+## ✅ Sample Input
 
-Sample Input
-
+```text
 4
 
 1 4 3 2
+```
 
-Expected Output
+### Sample Output
 
+```text
 2 3 4 1
+```
 
-Explanation
+---
 
+## 📌 Explanation
 
+### Original Array
 
-Original Array:
-
-
-
+```text
 1 4 3 2
+```
 
+### Reversed Array
 
-
-After reversing:
-
-
-
+```text
 2 3 4 1
+```
 
-Another Example
+---
 
-Input
+## 📚 Another Example
 
+### Input
+
+```text
 5
 
 10 20 30 40 50
+```
 
-Expected Output
+### Output
 
+```text
 50 40 30 20 10
+```
 
-Dry Run
+---
 
-Step	Left	Right	Array
+# 📝 Dry Run
 
-Initial	0	3	1 4 3 2
+| Step | Left | Right | Array |
+|------|------|-------|-------|
+| Initial | 0 | 3 | 1 4 3 2 |
+| Swap 1 & 2 | 1 | 2 | 2 4 3 1 |
+| Swap 4 & 3 | 2 | 1 | 2 3 4 1 |
+| Stop | Left ≥ Right | — | 2 3 4 1 |
 
-Swap 1 & 2	1	2	2 4 3 1
+---
 
-Swap 4 & 3	2	1	2 3 4 1
+# ⚙️ Algorithm
 
-Stop	Left ≥ Right		2 3 4 1
+1. Initialize two pointers:
+   - `left = 0`
+   - `right = n - 1`
+2. Swap the elements at the `left` and `right` indices.
+3. Increment `left` and decrement `right`.
+4. Repeat until `left >= right`.
+5. Return the reversed array.
 
-Algorithm
+---
 
-Initialize two pointers:
+# 📊 Program Output
 
-left = 0
+### Example 1
 
-right = n - 1
+```text
+Input:
+4
+1 4 3 2
 
-Swap the elements at left and right.
+Output:
+2 3 4 1
+```
 
-Increment left and decrement right.
+### Example 2
 
-Repeat until left becomes greater than or equal to right.
+```text
+Input:
+5
+10 20 30 40 50
 
-Return the reversed array.
+Output:
+50 40 30 20 10
+```
 
-Time Complexity
+---
 
-O(n)
+# 🧠 Concepts Used
 
-Space Complexity
+- Arrays
+- Two Pointer Technique
+- In-Place Swapping
+- Iteration
+- Time and Space Complexity Analysis
 
-O(1) (In-place reversal)
+---
 
+# ⏱️ Complexity Analysis
 
+| Operation | Complexity |
+|-----------|-----------:|
+| Time Complexity | **O(n)** |
+| Space Complexity | **O(1)** |
 
-This is the optimal approach because it reverses the array without using any extra data structure or built-in reverse function.
+The algorithm reverses the array **in-place**, making it the most efficient solution without using any additional data structures.
+
+---
+
+# 🎓 Learning Outcomes
+
+This project demonstrates how to:
+
+- Reverse an array efficiently
+- Apply the Two Pointer technique
+- Perform in-place swapping
+- Optimize space complexity
+- Solve array-based interview problems
+- Understand time and space complexity
+
+---
+
+## 📷 Sample Output
+
+```text
+Input:
+4
+1 4 3 2
+
+Output:
+2 3 4 1
+```
+
+```text
+Input:
+5
+10 20 30 40 50
+
+Output:
+50 40 30 20 10
+```

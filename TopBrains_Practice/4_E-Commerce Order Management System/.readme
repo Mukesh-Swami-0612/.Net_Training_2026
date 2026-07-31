@@ -1,9 +1,0 @@
-Question
-4
-E-Commerce Order Management System
-Description
-E-Commerce Order Management System (String Handling)
-Real-World Scenario
-An e-commerce company stores customer order details in a text file. Each record is stored as a pipe (|) separated string.
-
-As a .NET developer, you need to process these records using C# string methods.
