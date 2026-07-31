@@ -230,9 +230,9 @@ namespace CoursePrerequisiteSystem
             // Display End of Program
             //----------------------------------------------------------
 
-            Console.WriteLine("\n====================================");
+            
             Console.WriteLine("Program Executed Successfully");
-            Console.WriteLine("====================================");
+            
         }
     }
 }
