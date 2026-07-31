@@ -1,0 +1,25 @@
+Domain: Banking & Financial Services
+
+Real-World Scenario:
+Banks process millions of transactions every day. Fraud Detection Systems continuously monitor transactions to identify suspicious activities such as unusually large transfers, repeated transactions from the same account, and abnormal transaction patterns. In this assignment, you will implement core fraud detection features using C# while strengthening your understanding of Arrays, Strings, Loops, Searching, and Problem Solving.
+
+Learning Objectives
+After completing this assignment, you will be able to:
+
+Work with arrays of custom objects.
+Perform searching and comparison operations.
+Apply nested loops effectively.
+Build reusable methods.
+Analyze time complexity.
+Write clean, modular C# code.
+Develop logical thinking without relying on AI-generated solutions.
+Problem Statement
+A bank wants to identify suspicious transactions from a list of customer transactions.
+
+Each transaction contains:
+
+Account ID
+Transaction Amount
+Timestamp
+Merchant Name
+You need to implement various fraud detection features.

@@ -1,0 +1,26 @@
+Real-World Scenario:
+In an Intensive Care Unit (ICU), patient vital signs are monitored continuously to detect abnormal health conditions. Healthcare systems analyze heart rate, oxygen saturation (SpO₂), blood pressure, and timestamps to identify early warning signs and alert medical staff. In this assignment, you will implement core monitoring features using C# while strengthening your understanding of Arrays, Structures, Searching, Sorting, Sliding Window, and Problem Solving.
+
+Learning Objectives
+
+After completing this assignment, you will be able to:
+
+Work with arrays of structures.
+Implement sliding window algorithms.
+Calculate averages and median values.
+Perform searching and sorting without built-in collection classes.
+Detect abnormal vital signs using threshold-based logic.
+Write clean and modular C# code.
+Problem Statement
+
+A hospital stores a patient's vital signs every minute.
+
+Each record contains:
+
+Heart Rate (BPM)
+Oxygen Level (SpO₂ %)
+Systolic Blood Pressure
+Diastolic Blood Pressure
+Timestamp
+
+Develop a monitoring system that identifies abnormal readings and generates useful reports.
