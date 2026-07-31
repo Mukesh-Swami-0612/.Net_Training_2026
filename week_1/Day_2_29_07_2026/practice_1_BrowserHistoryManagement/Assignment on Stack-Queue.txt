@@ -1,0 +1,67 @@
+Assignment on Stack-Queue 
+
+Assignment 1: Stack (Browser History System)
+Project Name
+BrowserHistoryManagement
+Scenario
+
+A browser stores the last visited websites.
+
+Whenever the user presses the Back button,
+
+the browser opens the last visited page.
+
+Implement the application using Stack (LIFO).
+
+=================================
+
+Browser History System
+
+=================================
+
+1.Visit Page
+
+2.Back
+
+3.Current Page
+
+4.Display History
+
+5.Clear History
+
+6.Total Pages
+
+7.Exit
+
+Enter Choice :
+
+Assignment 2: Queue (Hospital Patient Management System)
+Project Name
+HospitalQueueManagement
+Scenario
+
+ABC Hospital wants to automate its patient consultation process.
+
+Patients are treated in the order they arrive.
+
+The first patient to register should be the first patient to consult the doctor.
+
+Implement the application using Queue (FIFO).
+
+====================================
+ABC Hospital Queue Management System
+====================================
+1. Register Patient
+
+2. Call Next Patient
+
+3. View Next Patient
+
+4. Display Waiting Patients
+
+5. Search Patient
+
+6. Count Waiting Patients
+
+7. Exit
+Enter Choice :
