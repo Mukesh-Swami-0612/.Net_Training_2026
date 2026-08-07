@@ -13,8 +13,6 @@ class Program
         do
         {
             Console.WriteLine(" Employee Search Management System");
-            
-
             Console.WriteLine("1. Display All Employees");
             Console.WriteLine("2. Search by Employee ID (Linear Search)");
             Console.WriteLine("3. Search by Employee ID (Binary Search)");
