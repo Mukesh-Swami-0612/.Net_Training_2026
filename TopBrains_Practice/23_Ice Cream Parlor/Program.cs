@@ -44,8 +44,6 @@ class Program
 
         
         // FIRST TRIP
-        
-
         // Money available
         int m1 = 4;
 
